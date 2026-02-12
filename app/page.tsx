@@ -266,19 +266,16 @@ export default function Home() {
             Join D-MARV FITNESS POWER HOUSE today and start your journey to a stronger, healthier you
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Link href="/membership">
-              <Button className="bg-white text-red-600 hover:bg-gray-100 px-10 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                Start Your Journey
-              </Button>
-            </Link>
-            <Link href="/programs">
-              <Button
-                variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-10 py-4 text-lg font-semibold bg-transparent rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              >
-                View Programs
-              </Button>
-            </Link>
+            <Button asChild className="bg-white text-red-600 hover:bg-gray-100 px-10 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <Link href="/membership">Start Your Journey</Link>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-10 py-4 text-lg font-semibold bg-transparent rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            >
+              <Link href="/programs">View Programs</Link>
+            </Button>
           </div>
         </div>
       </section>

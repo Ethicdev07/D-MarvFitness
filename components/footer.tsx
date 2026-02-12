@@ -100,12 +100,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="space-y-3">
               <p className="text-gray-600 text-sm">
-                123 Fitness Street
+                Block 1, Plot 16, Ring Road, Off Bolumole Street
                 <br />
-                Power District, City 12345
+                Bolumole Bus Stop, Challenge, Ibadan.
               </p>
               <p className="text-gray-600 text-sm">
-                Phone: +1 (555) 123-4567
+                Phone: +234 7046068541
                 <br />
                 Email: info@dmarvfitness.com
               </p>
