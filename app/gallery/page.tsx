@@ -7,7 +7,7 @@ import WhatsAppButton from "@/components/whatsapp-button";
 export default function GalleryPage() {
   const galleryImages = [
     {
-      src: "/marv1.jpeg",
+      src: "/gym1.jpeg",
       category: "Facilities",
     },
     {
@@ -23,19 +23,18 @@ export default function GalleryPage() {
       category: "Training",
     },
     {
-      src: "/cardio-equipment-area.jpg",
+      src: "/gym5.jpeg",
       alt: "Cardio equipment area",
       category: "Facilities",
     },
     {
-      src: "/crossfit-training-area.jpg",
+      src: "/gym8.jpeg",
       alt: "CrossFit training area",
       category: "Facilities",
     },
     {
-      src: "/hiit-workout-class.jpg",
-      alt: "HIIT workout class",
-      category: "Classes",
+      src: "/gym2.jpeg",
+      category: "Facilities",
     },
     {
       src: "/gym-members-celebrating-achievement.jpg",
@@ -48,17 +47,15 @@ export default function GalleryPage() {
       category: "Training",
     },
     {
-      src: "/gym-locker-room-facilities.jpg",
-      alt: "Clean and modern locker room facilities",
+      src: "/gym6.jpeg",
       category: "Facilities",
     },
     {
-      src: "/nutrition-consultation-area.jpg",
-      alt: "Nutrition consultation area",
-      category: "Services",
+      src: "/gym7.jpeg",
+      category: "Facilities",
     },
     {
-      src: "/gym-community-event.jpg",
+      src: "/gym10.jpeg",
       alt: "Community fitness event",
       category: "Community",
     },

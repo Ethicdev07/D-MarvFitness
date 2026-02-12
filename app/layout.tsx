@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   title: "D-MARV FITNESS POWER HOUSE - Transform Your Body, Transform Your Life",
   description:
     "Join D-MARV FITNESS POWER HOUSE for world-class fitness training, expert coaching, and a supportive community. Achieve your fitness goals with our comprehensive programs.",
-  generator: "v0.app",
+  icons: {
+    icon: "/dmarvlogoo.jpeg",
+    apple: "/dmarvlogoo.jpeg",
+  },
 }
 
 export default function RootLayout({

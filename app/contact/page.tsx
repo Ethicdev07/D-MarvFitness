@@ -124,7 +124,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">Hours</h3>
                     <div className="text-muted-foreground">
-                      <p>Monday - Friday: 5:00 AM - 10:00 PM</p>
+                      <p>Monday - Friday: 6:00 AM - 09:00 PM</p>
                       <p>Saturday: 6:00 AM - 8:00 PM</p>
                       <p>Sunday: 7:00 AM - 7:00 PM</p>
                     </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent"
                       placeholder="Your full name"
                     />
                   </div>
@@ -165,7 +165,7 @@ export default function ContactPage() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2  focus:border-transparent"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -182,7 +182,7 @@ export default function ContactPage() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent"
                       placeholder="(555) 123-4567"
                     />
                   </div>
@@ -196,7 +196,7 @@ export default function ContactPage() {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2  focus:border-transparent"
                     >
                       <option value="">Select a subject</option>
                       <option value="membership">Membership Inquiry</option>
@@ -219,12 +219,12 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent resize-vertical"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2  focus:border-transparent resize-vertical"
                     placeholder="Tell us how we can help you..."
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3">
+                <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-6">
                   Send Message
                 </Button>
               </form>
