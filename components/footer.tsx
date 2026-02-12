@@ -105,7 +105,7 @@ export default function Footer() {
                 Bolumole Bus Stop, Challenge, Ibadan.
               </p>
               <p className="text-gray-600 text-sm">
-                Phone: +234 7046068541
+                Phone: +2347046068541
                 <br />
                 Email: info@dmarvfitness.com
               </p>

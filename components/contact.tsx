@@ -26,17 +26,17 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Location",
-      details: ["123 Fitness Street", "Power District, City 12345"],
+      details: ["Block 1,Plot 16, Ring Road, Off Bolumole Street, Bolumole Bus Stop, Challenge, Ibadan."],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["+2347046068541"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@dmarvfitness.com", "support@dmarvfitness.com"],
+      details: ["info@dmarvfitness.com"],
     },
     {
       icon: Clock,

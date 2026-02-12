@@ -145,30 +145,6 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-red-600 text-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="animate-fade-in-up">
-              <div className="text-4xl font-bold mb-2">500+</div>
-              <div className="text-red-100">Happy Members</div>
-            </div>
-            <div className="animate-fade-in-up">
-              <div className="text-4xl font-bold mb-2">50+</div>
-              <div className="text-red-100">Equipment Pieces</div>
-            </div>
-            <div className="animate-fade-in-up">
-              <div className="text-4xl font-bold mb-2">15+</div>
-              <div className="text-red-100">Expert Trainers</div>
-            </div>
-            <div className="animate-fade-in-up">
-              <div className="text-4xl font-bold mb-2">5</div>
-              <div className="text-red-100">Years Experience</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
       <WhatsAppButton />
     </main>

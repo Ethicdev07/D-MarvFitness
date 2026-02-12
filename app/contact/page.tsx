@@ -79,9 +79,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      123 Fitness Street
+                      Block 1, Plot 16, Ring Road,
                       <br />
-                      Power District, City 12345
+                      Off Bolumole Street, Bolumole Bus Stop,
+                      <br />
+                      Challenge, Ibadan.
                     </p>
                   </div>
                 </div>
@@ -94,7 +96,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+234 704 606 8541</p>
                   </div>
                 </div>
 
@@ -124,9 +126,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">Hours</h3>
                     <div className="text-muted-foreground">
-                      <p>Monday - Friday: 6:00 AM - 09:00 PM</p>
-                      <p>Saturday: 6:00 AM - 8:00 PM</p>
-                      <p>Sunday: 7:00 AM - 7:00 PM</p>
+                      <p>Monday - Friday: 5:00 AM - 11:00 PM</p>
+                      <p>Saturday - Sunday: 6:00 AM - 10:00 PM</p>
                     </div>
                   </div>
                 </div>
@@ -141,7 +142,7 @@ export default function ContactPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
-                      Full Name *
+                      Full Name
                     </label>
                     <input
                       type="text"
@@ -156,7 +157,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-foreground mb-2">
-                      Email Address *
+                      Email Address 
                     </label>
                     <input
                       type="email"
@@ -188,7 +189,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label htmlFor="subject" className="block text-sm font-semibold text-foreground mb-2">
-                      Subject *
+                      Subject 
                     </label>
                     <select
                       id="subject"
@@ -239,25 +240,22 @@ export default function ContactPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 animate-fade-in-up">Find Us</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up">
-              Located in the heart of the city, easily accessible by car or public transport
+              Visit us at Challenge, Ibadan — easily accessible by car or public transport
             </p>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden animate-fade-in-up">
-            <div className="h-96 bg-gray-200 flex items-center justify-center">
-              {/* Placeholder for map - replace with actual map integration */}
-              <div className="text-center">
-                <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fillRule="evenodd"
-                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <p className="text-gray-500 text-lg">Interactive Map</p>
-                <p className="text-gray-400 text-sm">123 Fitness Street, Power District, City 12345</p>
-              </div>
-            </div>
+            <iframe
+              title="D-MARV FITNESS POWER HOUSE Location"
+              src="https://maps.google.com/maps?q=Block+1+Plot+16+Ring+Road+Off+Bolumole+Street+Bolumole+Bus+Stop+Challenge+Ibadan+Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-[450px]"
+            />
           </div>
         </div>
       </section>
