@@ -107,7 +107,7 @@ export default function Footer() {
               <p className="text-gray-600 text-sm">
                 Phone: +2347046068541
                 <br />
-                Email: info@dmarvfitness.com
+                Email: Adadusunday0@gmail.com
               </p>
               <div className="flex space-x-4 pt-2">
                 {socialLinks.map((social, index) => (

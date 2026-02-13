@@ -37,14 +37,14 @@ export default function GalleryPage() {
       category: "Facilities",
     },
     {
-      src: "/gym-members-celebrating-achievement.jpg",
+      src: "/community1.jpeg",
       alt: "Members celebrating fitness achievements",
       category: "Community",
     },
     {
-      src: "/functional-fitness-training.jpg",
+      src: "/community2.jpeg",
       alt: "Functional fitness training",
-      category: "Training",
+      category: "Community",
     },
     {
       src: "/gym6.jpeg",

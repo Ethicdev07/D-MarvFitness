@@ -42,7 +42,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-background">
       <Header />
 
-      {/* Hero Section */}
+
       <section className="pt-24 pb-16 bg-gradient-to-br from-red-50 to-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -57,11 +57,11 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Info & Form */}
+   
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
+        
             <div className="animate-fade-in-up">
               <h2 className="text-3xl font-bold text-foreground mb-8">Contact Information</h2>
 
@@ -109,7 +109,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@dmarvfitness.com</p>
+                    <p className="text-muted-foreground">Adadusunday0@gmail.com</p>
                   </div>
                 </div>
 
@@ -134,7 +134,6 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Contact Form */}
             <div className="animate-fade-in-up">
               <h2 className="text-3xl font-bold text-foreground mb-8">Send us a Message</h2>
 
@@ -211,7 +210,7 @@ export default function ContactPage() {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-semibold text-foreground mb-2">
-                    Message *
+                    Message 
                   </label>
                   <textarea
                     id="message"
@@ -234,7 +233,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
+     
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
