@@ -11,8 +11,8 @@ export default function GalleryPage() {
       category: "Facilities",
     },
     {
-      src: "/marv2.mp4",
-      category: "Facilities",
+      src: "/marv5.mp4",
+      category: "Training",
     },
     {
       src: "/marv3.mp4",
